@@ -1,0 +1,35 @@
+# Núcleo científico
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
+scikit-learn==1.5.1
+joblib==1.4.2
+
+# Deep Learning (elige uno; aquí PyTorch CPU por simplicidad)
+torch==2.3.1
+torchaudio==2.3.1
+torchvision==0.18.1
+
+# Visualización
+matplotlib==3.9.0
+plotly==5.22.0
+
+# Datos de mercados
+yfinance==0.2.40
+pandas-datareader==0.10.0
+ccxt==4.3.89
+
+# Backtesting / métricas
+vectorbt==0.26.1
+empyrical-reloaded==0.5.11
+
+# Gestión de configuración y .env
+python-dotenv==1.0.1
+pydantic==2.8.2
+pydantic-settings==2.4.0
+hydra-core==1.3.2
+
+# Utilidades
+pyyaml==6.0.2
+tqdm==4.66.4
+rich==13.7.1
