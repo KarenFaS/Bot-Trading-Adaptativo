@@ -1,0 +1,687 @@
+tickers:
+- name: BitMine Immersion Technologies
+  symbol_yf: BMNR
+  symbol_alpaca: BMNR
+  country: USA
+  sector: Technology
+  source: yfinance
+  min_years: 4
+- name: Tesla Inc.
+  symbol_yf: TSLA
+  symbol_alpaca: TSLA
+  country: USA
+  sector: Automotive / Technology
+  source: yfinance
+  min_years: 4
+- name: Hims & Hers Health
+  symbol_yf: HIMS
+  symbol_alpaca: HIMS
+  country: USA
+  sector: Healthcare
+  source: yfinance
+  min_years: 4
+- name: Lenovo Group
+  symbol_yf: 0992.HK
+  symbol_alpaca: null
+  country: China
+  sector: Technology / Hardware
+  source: yfinance
+  min_years: 4
+- name: Nanobiotix
+  symbol_yf: NANO.PA
+  symbol_alpaca: null
+  country: France
+  sector: Biotechnology
+  source: yfinance
+  min_years: 4
+- name: Mitsubishi Electric
+  symbol_yf: 6503.T
+  symbol_alpaca: null
+  country: Japan
+  sector: Industrials
+  source: yfinance
+  min_years: 4
+- name: Green Thumb Industries
+  symbol_yf: GTBIF
+  symbol_alpaca: GTBIF
+  country: USA
+  sector: Healthcare
+  source: yfinance
+  min_years: 4
+- name: Bloom Energy
+  symbol_yf: BE
+  symbol_alpaca: BE
+  country: USA
+  sector: Energy / CleanTech
+  source: yfinance
+  min_years: 4
+- name: SolarEdge Technologies
+  symbol_yf: SEDG
+  symbol_alpaca: SEDG
+  country: USA
+  sector: Energy / Solar
+  source: yfinance
+  min_years: 4
+- name: NVIDIA Corporation
+  symbol_yf: NVDA
+  symbol_alpaca: NVDA
+  country: USA
+  sector: Semiconductors / AI
+  source: yfinance
+  min_years: 4
+- name: Taiwan Semiconductor (ADR)
+  symbol_yf: TSM
+  symbol_alpaca: null
+  country: Taiwan
+  sector: Semiconductors
+  source: yfinance
+  min_years: 4
+- name: Limbach Holdings
+  symbol_yf: LMB
+  symbol_alpaca: LMB
+  country: USA
+  sector: Industrials
+  source: yfinance
+  min_years: 4
+- name: Alphabet Inc.
+  symbol_yf: GOOGL
+  symbol_alpaca: GOOGL
+  country: USA
+  sector: Technology
+  source: yfinance
+  min_years: 4
+- name: Uranium Energy
+  symbol_yf: UEC
+  symbol_alpaca: UEC
+  country: USA
+  sector: Energy / Uranium
+  source: yfinance
+  min_years: 4
+- name: Meta Platforms
+  symbol_yf: META
+  symbol_alpaca: META
+  country: USA
+  sector: Technology / Social Media
+  source: yfinance
+  min_years: 4
+- name: Nagarro SE
+  symbol_yf: NA9.F
+  symbol_alpaca: null
+  country: Germany
+  sector: Technology
+  source: yfinance
+  min_years: 4
+- name: Microsoft Corporation
+  symbol_yf: MSFT
+  symbol_alpaca: MSFT
+  country: USA
+  sector: Technology / Software
+  source: yfinance
+  min_years: 4
+- name: EssilorLuxottica
+  symbol_yf: EL.PA
+  symbol_alpaca: null
+  country: France
+  sector: Consumer
+  source: yfinance
+  min_years: 4
+- name: Iberdrola SA
+  symbol_yf: IBE.MC
+  symbol_alpaca: null
+  country: Spain
+  sector: Utilities / Energy
+  source: yfinance
+  min_years: 4
+- name: Cameco Corporation
+  symbol_yf: CCJ
+  symbol_alpaca: null
+  country: Canada
+  sector: Energy / Uranium
+  source: yfinance
+  min_years: 4
+- name: Berkshire Hathaway
+  symbol_yf: BRK-A
+  symbol_alpaca: null
+  country: USA
+  sector: Financial / Conglomerate
+  source: yfinance
+  min_years: 4
+- name: Amazon.com Inc.
+  symbol_yf: AMZN
+  symbol_alpaca: AMZN
+  country: USA
+  sector: Consumer / Technology
+  source: yfinance
+  min_years: 4
+- name: Intel Corporation
+  symbol_yf: INTC
+  symbol_alpaca: INTC
+  country: USA
+  sector: Semiconductors
+  source: yfinance
+  min_years: 4
+- name: Coinbase Global
+  symbol_yf: COIN
+  symbol_alpaca: COIN
+  country: USA
+  sector: Financial / Crypto Exchange
+  source: yfinance
+  min_years: 4
+- name: Alibaba Group (ADR)
+  symbol_yf: BABA
+  symbol_alpaca: null
+  country: China
+  sector: E-Commerce / Technology
+  source: yfinance
+  min_years: 4
+- name: Banco BBVA Argentina (ADR)
+  symbol_yf: BBAR
+  symbol_alpaca: null
+  country: Argentina
+  sector: Financial
+  source: yfinance
+  min_years: 4
+- name: Prosus NV
+  symbol_yf: PRX.AS
+  symbol_alpaca: null
+  country: Netherlands
+  sector: Technology / Holdings
+  source: yfinance
+  min_years: 4
+- name: MercadoLibre
+  symbol_yf: MELI
+  symbol_alpaca: null
+  country: Argentina
+  sector: E-Commerce / Payments
+  source: yfinance
+  min_years: 4
+- name: Bank of China
+  symbol_yf: 3988.HK
+  symbol_alpaca: null
+  country: China
+  sector: Financial
+  source: yfinance
+  min_years: 4
+- name: Ormat Technologies
+  symbol_yf: ORA
+  symbol_alpaca: ORA
+  country: USA
+  sector: Energy / Geothermal
+  source: yfinance
+  min_years: 4
+- name: Uber Technologies
+  symbol_yf: UBER
+  symbol_alpaca: UBER
+  country: USA
+  sector: Transport / Technology
+  source: yfinance
+  min_years: 4
+- name: Apple Inc.
+  symbol_yf: AAPL
+  symbol_alpaca: AAPL
+  country: USA
+  sector: Technology
+  source: yfinance
+  min_years: 4
+- name: JPMorgan Chase
+  symbol_yf: JPM
+  symbol_alpaca: JPM
+  country: USA
+  sector: Financial
+  source: yfinance
+  min_years: 4
+- name: Bank of America
+  symbol_yf: BAC
+  symbol_alpaca: BAC
+  country: USA
+  sector: Financial
+  source: yfinance
+  min_years: 4
+- name: Visa
+  symbol_yf: V
+  symbol_alpaca: V
+  country: USA
+  sector: Financial / Payments
+  source: yfinance
+  min_years: 4
+- name: Mastercard
+  symbol_yf: MA
+  symbol_alpaca: MA
+  country: USA
+  sector: Financial / Payments
+  source: yfinance
+  min_years: 4
+- name: Exxon Mobil
+  symbol_yf: XOM
+  symbol_alpaca: XOM
+  country: USA
+  sector: Energy
+  source: yfinance
+  min_years: 4
+- name: Chevron
+  symbol_yf: CVX
+  symbol_alpaca: CVX
+  country: USA
+  sector: Energy
+  source: yfinance
+  min_years: 4
+- name: NextEra Energy
+  symbol_yf: NEE
+  symbol_alpaca: NEE
+  country: USA
+  sector: Utilities
+  source: yfinance
+  min_years: 4
+- name: Home Depot
+  symbol_yf: HD
+  symbol_alpaca: HD
+  country: USA
+  sector: Consumer
+  source: yfinance
+  min_years: 4
+- name: Procter & Gamble
+  symbol_yf: PG
+  symbol_alpaca: PG
+  country: USA
+  sector: Consumer Staples
+  source: yfinance
+  min_years: 4
+- name: Coca-Cola
+  symbol_yf: KO
+  symbol_alpaca: KO
+  country: USA
+  sector: Consumer Staples
+  source: yfinance
+  min_years: 4
+- name: PepsiCo
+  symbol_yf: PEP
+  symbol_alpaca: PEP
+  country: USA
+  sector: Consumer Staples
+  source: yfinance
+  min_years: 4
+- name: Disney
+  symbol_yf: DIS
+  symbol_alpaca: DIS
+  country: USA
+  sector: Entertainment
+  source: yfinance
+  min_years: 4
+- name: Netflix
+  symbol_yf: NFLX
+  symbol_alpaca: NFLX
+  country: USA
+  sector: Entertainment / Streaming
+  source: yfinance
+  min_years: 4
+- name: Cisco Systems
+  symbol_yf: CSCO
+  symbol_alpaca: CSCO
+  country: USA
+  sector: Technology
+  source: yfinance
+  min_years: 4
+- name: Adobe
+  symbol_yf: ADBE
+  symbol_alpaca: ADBE
+  country: USA
+  sector: Technology
+  source: yfinance
+  min_years: 4
+- name: Salesforce
+  symbol_yf: CRM
+  symbol_alpaca: CRM
+  country: USA
+  sector: Technology
+  source: yfinance
+  min_years: 4
+- name: Qualcomm
+  symbol_yf: QCOM
+  symbol_alpaca: QCOM
+  country: USA
+  sector: Semiconductors
+  source: yfinance
+  min_years: 4
+- name: Advanced Micro Devices
+  symbol_yf: AMD
+  symbol_alpaca: AMD
+  country: USA
+  sector: Semiconductors
+  source: yfinance
+  min_years: 4
+- name: Texas Instruments
+  symbol_yf: TXN
+  symbol_alpaca: TXN
+  country: USA
+  sector: Semiconductors
+  source: yfinance
+  min_years: 4
+- name: Applied Materials
+  symbol_yf: AMAT
+  symbol_alpaca: AMAT
+  country: USA
+  sector: Semiconductors
+  source: yfinance
+  min_years: 4
+- name: Caterpillar
+  symbol_yf: CAT
+  symbol_alpaca: CAT
+  country: USA
+  sector: Industrials
+  source: yfinance
+  min_years: 4
+- name: Deere & Co
+  symbol_yf: DE
+  symbol_alpaca: DE
+  country: USA
+  sector: Industrials
+  source: yfinance
+  min_years: 4
+- name: Honeywell
+  symbol_yf: HON
+  symbol_alpaca: HON
+  country: USA
+  sector: Industrials
+  source: yfinance
+  min_years: 4
+- name: Boeing
+  symbol_yf: BA
+  symbol_alpaca: BA
+  country: USA
+  sector: Industrials
+  source: yfinance
+  min_years: 4
+- name: Lockheed Martin
+  symbol_yf: LMT
+  symbol_alpaca: LMT
+  country: USA
+  sector: Defense
+  source: yfinance
+  min_years: 4
+- name: RTX Corp
+  symbol_yf: RTX
+  symbol_alpaca: RTX
+  country: USA
+  sector: Defense
+  source: yfinance
+  min_years: 4
+- name: UnitedHealth
+  symbol_yf: UNH
+  symbol_alpaca: UNH
+  country: USA
+  sector: Healthcare
+  source: yfinance
+  min_years: 4
+- name: Pfizer
+  symbol_yf: PFE
+  symbol_alpaca: PFE
+  country: USA
+  sector: Healthcare
+  source: yfinance
+  min_years: 4
+- name: Merck
+  symbol_yf: MRK
+  symbol_alpaca: MRK
+  country: USA
+  sector: Healthcare
+  source: yfinance
+  min_years: 4
+- name: AbbVie
+  symbol_yf: ABBV
+  symbol_alpaca: ABBV
+  country: USA
+  sector: Healthcare
+  source: yfinance
+  min_years: 4
+- name: Thermo Fisher
+  symbol_yf: TMO
+  symbol_alpaca: TMO
+  country: USA
+  sector: Healthcare / Pharma
+  source: yfinance
+  min_years: 4
+- name: CVS Health
+  symbol_yf: CVS
+  symbol_alpaca: CVS
+  country: USA
+  sector: Healthcare / Retail
+  source: yfinance
+  min_years: 4
+- name: Walmart
+  symbol_yf: WMT
+  symbol_alpaca: WMT
+  country: USA
+  sector: Retail / Consumer
+  source: yfinance
+  min_years: 4
+- name: Costco
+  symbol_yf: COST
+  symbol_alpaca: COST
+  country: USA
+  sector: Retail / Consumer
+  source: yfinance
+  min_years: 4
+- name: Target
+  symbol_yf: TGT
+  symbol_alpaca: TGT
+  country: USA
+  sector: Retail / Consumer
+  source: yfinance
+  min_years: 4
+- name: McDonald's
+  symbol_yf: MCD
+  symbol_alpaca: MCD
+  country: USA
+  sector: Consumer
+  source: yfinance
+  min_years: 4
+- name: Starbucks
+  symbol_yf: SBUX
+  symbol_alpaca: SBUX
+  country: USA
+  sector: Consumer
+  source: yfinance
+  min_years: 4
+- name: Oracle
+  symbol_yf: ORCL
+  symbol_alpaca: ORCL
+  country: USA
+  sector: Technology
+  source: yfinance
+  min_years: 4
+- name: IBM
+  symbol_yf: IBM
+  symbol_alpaca: IBM
+  country: USA
+  sector: Technology
+  source: yfinance
+  min_years: 4
+- name: SAP SE
+  symbol_yf: SAP
+  symbol_alpaca: null
+  country: Germany
+  sector: Technology
+  source: yfinance
+  min_years: 4
+- name: BMW AG
+  symbol_yf: BMW.DE
+  symbol_alpaca: null
+  country: Germany
+  sector: Automotive
+  source: yfinance
+  min_years: 4
+- name: Airbus
+  symbol_yf: AIR.PA
+  symbol_alpaca: null
+  country: France
+  sector: Aerospace
+  source: yfinance
+  min_years: 4
+- name: LVMH
+  symbol_yf: MC.PA
+  symbol_alpaca: null
+  country: France
+  sector: Luxury Goods
+  source: yfinance
+  min_years: 4
+- name: "Nestl\xE9"
+  symbol_yf: NESN.SW
+  symbol_alpaca: null
+  country: Switzerland
+  sector: Consumer Staples
+  source: yfinance
+  min_years: 4
+- name: Novartis
+  symbol_yf: NOVN.SW
+  symbol_alpaca: null
+  country: Switzerland
+  sector: Healthcare
+  source: yfinance
+  min_years: 4
+- name: Toyota
+  symbol_yf: 7203.T
+  symbol_alpaca: null
+  country: Japan
+  sector: Automotive
+  source: yfinance
+  min_years: 4
+- name: Sony Group
+  symbol_yf: 6758.T
+  symbol_alpaca: null
+  country: Japan
+  sector: Technology / Entertainment
+  source: yfinance
+  min_years: 4
+- name: Honda
+  symbol_yf: 7267.T
+  symbol_alpaca: null
+  country: Japan
+  sector: Automotive
+  source: yfinance
+  min_years: 4
+- name: SoftBank Group
+  symbol_yf: 9984.T
+  symbol_alpaca: null
+  country: Japan
+  sector: Technology / Holdings
+  source: yfinance
+  min_years: 4
+- name: Samsung Electronics
+  symbol_yf: 005930.KS
+  symbol_alpaca: null
+  country: South Korea
+  sector: Technology
+  source: yfinance
+  min_years: 4
+- name: Tata Consultancy Services
+  symbol_yf: TCS.NS
+  symbol_alpaca: null
+  country: India
+  sector: Technology
+  source: yfinance
+  min_years: 4
+- name: Infosys
+  symbol_yf: INFY
+  symbol_alpaca: null
+  country: India
+  sector: Technology / Outsourcing
+  source: yfinance
+  min_years: 4
+- name: Reliance Industries
+  symbol_yf: RELIANCE.NS
+  symbol_alpaca: null
+  country: India
+  sector: Energy / Conglomerate
+  source: yfinance
+  min_years: 4
+- name: HDFC Bank
+  symbol_yf: HDB
+  symbol_alpaca: null
+  country: India
+  sector: Financial
+  source: yfinance
+  min_years: 4
+- name: Vale S.A.
+  symbol_yf: VALE
+  symbol_alpaca: null
+  country: Brazil
+  sector: Materials / Mining
+  source: yfinance
+  min_years: 4
+- name: Petrobras
+  symbol_yf: PBR
+  symbol_alpaca: null
+  country: Brazil
+  sector: Energy
+  source: yfinance
+  min_years: 4
+- name: Itau Unibanco
+  symbol_yf: ITUB
+  symbol_alpaca: null
+  country: Brazil
+  sector: Financial
+  source: yfinance
+  min_years: 4
+- name: FEMSA
+  symbol_yf: FMX
+  symbol_alpaca: null
+  country: Mexico
+  sector: Consumer
+  source: yfinance
+  min_years: 4
+- name: Enel
+  symbol_yf: ENEL.MI
+  symbol_alpaca: null
+  country: Italy
+  sector: Utilities / Energy
+  source: yfinance
+  min_years: 4
+- name: Intesa Sanpaolo
+  symbol_yf: ISP.MI
+  symbol_alpaca: null
+  country: Italy
+  sector: Financial
+  source: yfinance
+  min_years: 4
+- name: Banco Santander
+  symbol_yf: SAN.MC
+  symbol_alpaca: null
+  country: Spain
+  sector: Financial
+  source: yfinance
+  min_years: 4
+- name: "Telef\xF3nica"
+  symbol_yf: TEF.MC
+  symbol_alpaca: null
+  country: Spain
+  sector: Telecommunications
+  source: yfinance
+  min_years: 4
+- name: Shopify
+  symbol_yf: SHOP
+  symbol_alpaca: null
+  country: Canada
+  sector: Tech / E-Commerce
+  source: yfinance
+  min_years: 4
+- name: Enbridge
+  symbol_yf: ENB
+  symbol_alpaca: null
+  country: Canada
+  sector: Energy / Pipelines
+  source: yfinance
+  min_years: 4
+- name: Toronto-Dominion Bank
+  symbol_yf: TD
+  symbol_alpaca: null
+  country: Canada
+  sector: Financial
+  source: yfinance
+  min_years: 4
+- name: Royal Bank of Canada
+  symbol_yf: RY
+  symbol_alpaca: null
+  country: Canada
+  sector: Financial
+  source: yfinance
+  min_years: 4
