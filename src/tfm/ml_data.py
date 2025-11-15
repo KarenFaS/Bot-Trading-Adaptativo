@@ -274,13 +274,20 @@ def prepare_ml_pipeline(
         drop_na=True
     )
     
+    # Obtener los nombres de features usados (antes de split para poder usarlos)
+    if feature_cols is None:
+        # Si no se especifican, usar todas las columnas de features generadas
+        if windows is None:
+            windows = {'1m': 21, '3m': 63, '6m': 126}
+        feature_cols = []
+        for period_name in windows.keys():
+            feature_cols.append(f"ret_{period_name}")
+        for period_name in windows.keys():
+            feature_cols.append(f"vol_{period_name}")
+    
     # Separar features y target
     X_train, y_train = split_features_target(train_panel, feature_cols=feature_cols, target_col=target_col)
     X_test, y_test = split_features_target(test_panel, feature_cols=feature_cols, target_col=target_col)
-    
-    # Obtener los nombres de features usados
-    if feature_cols is None:
-        feature_cols = ['ret_1m', 'ret_3m', 'ret_6m', 'vol_1m', 'vol_3m', 'vol_6m']
     
     # Escalar features si se requiere
     scaler = None
