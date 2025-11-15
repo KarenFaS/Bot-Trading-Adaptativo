@@ -71,10 +71,43 @@ adj_close_df = ohlcv_dict['adj_close']
 
 Ver [documentación completa](docs/universe_usage.md) para más detalles.
 
-### Ejecutar ejemplo
+### Módulo ML Data
+
+El módulo `tfm.ml_data` facilita la preparación de datos históricos con targets conocidos para modelos de machine learning:
+
+- Conversión a formato panel (Date, Asset)
+- Generación de features basadas en ventanas móviles
+- Creación de variables target (retornos futuros)
+- Separación temporal train/test
+- Escalado de features
+
+**Ejemplo de uso:**
+
+```python
+from tfm import ml_data
+
+# Preparar datos para ML
+data = ml_data.prepare_ml_pipeline(
+    returns_df=retornos_activos,
+    test_size=25,
+    windows={'1m': 21, '3m': 63, '6m': 126},
+    target_window=21,
+    scale=True
+)
+
+# Entrenar modelo
+from sklearn.ensemble import RandomForestRegressor
+model = RandomForestRegressor(n_estimators=300, max_depth=6)
+model.fit(data['X_train'], data['y_train'])
+```
+
+Ver [documentación completa](docs/ml_data_usage.md) para más detalles.
+
+### Ejecutar ejemplos
 
 ```bash
 python examples/load_universe_example.py
+python examples/ml_data_preparation_example.py
 ```
 
 ## Características
@@ -83,6 +116,7 @@ python examples/load_universe_example.py
 - ✅ **Descarga automática de datos**: Integración con Yahoo Finance
 - ✅ **Validación de calidad**: Filtrado automático de activos con datos insuficientes
 - ✅ **Reproducibilidad**: Sistema de snapshots para análisis offline
+- ✅ **Preparación de datos ML**: Módulo completo para preparar datos históricos con targets
 - 🚧 **Optimización de cartera**: HRP (Hierarchical Risk Parity) [En desarrollo]
 - 🚧 **Machine Learning**: Modelos predictivos adaptativos [En desarrollo]
 - 🚧 **Backtesting**: Validación walk-forward [En desarrollo]
